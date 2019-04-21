@@ -115,3 +115,7 @@ venv.bak/
 .idea/
 /net/mobilenet/
 /net/vgg/
+/new_X.npy
+/label.npy
+/data.npy
+/net/inception/
