@@ -102,3 +102,16 @@ venv.bak/
 
 # mypy
 .mypy_cache/
+/data/country/
+/data/reggae/
+/data/classical/
+/data/jazz/
+/data/hiphop/
+/data/pop/
+/data/disco/
+/data/rock/
+/data/metal/
+/data/blues/
+.idea/
+/net/mobilenet/
+/net/vgg/
