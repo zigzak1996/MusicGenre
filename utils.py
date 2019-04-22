@@ -51,12 +51,12 @@ def to_melspectrogram(songs, n_fft=1024, hop_length=512):
 def read_data(src_dir, song_samples, debug=True):
     arr_specs = []
     arr_genres = []
-    genres = {key: i for i, key in enumerate(sorted(os.listdir(src_dir)))}
+    genres = {key: i for i, key in enumerate(os.listdir(src_dir))}
     for genre in genres.keys():
 
         folder = src_dir + '/' + genre
 
-        for file in sorted(os.listdir(folder)):
+        for file in os.listdir(folder):
             path = folder + "/" + file
             signal, sr = librosa.load(path)
             signal = signal[:song_samples]
